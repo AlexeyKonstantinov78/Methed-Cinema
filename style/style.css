@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "variabels.css";
+@import "basic.css";
+@import "header.css";
+
+
+
+h1 {
+    font-family: Raleway, sans-serif;
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+}

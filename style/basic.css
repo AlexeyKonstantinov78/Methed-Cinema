@@ -1,0 +1,40 @@
+/* поведение размера */
+html {
+    box-sizing: border-box;
+}
+/* на все элементы сайта */
+*, 
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px; /* минимальная ширина */
+    min-height: 100vh; /* на вс. высоту */
+    padding-top: 50px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+
+    font-family: Inter, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
