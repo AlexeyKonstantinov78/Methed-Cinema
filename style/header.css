@@ -22,12 +22,13 @@
 .header__seearch-form {
     flex-grow: 1;
     height: 70px;
-    padding-left: 73px;
+    padding-left: 60px;
     background-image: url("../image/search.svg");
     background-repeat: no-repeat;
     background-position: left 15px center;
     background-color: var(--color-second);
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .header__search-input {
@@ -36,6 +37,14 @@
     background-color: transparent;
     border: none;
     outline: none;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-text);
+    padding-left: 13px;
+}
+
+.header__search-input:focus{
+    background-color: var(--color-primary);
 }
 
 .header__burger-btn {
