@@ -32,6 +32,11 @@ button {
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 .container {
     max-width: 1650px;
     margin: 0 auto;
