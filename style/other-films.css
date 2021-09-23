@@ -33,6 +33,11 @@
     text-align: center;
 }
 
+.other-films__item:nth-child(2n) {
+    padding-top: 50px;
+}
+
+
 .othet-films__img {
     /* filter: drop-shadow(0px 0px 10px var(--color-primary)); */
     border-radius: 10px;
@@ -91,6 +96,10 @@
 
     .other-films__item {
         width: 100%;
+    }
+
+    .other-films__item:nth-child(2n) {
+        padding-top: 0;
     }
 }
 
