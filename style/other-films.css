@@ -33,8 +33,9 @@
     text-align: center;
 }
 
-.other-films__item:nth-child(2n) {
-    padding-top: 50px;
+.other-films__item:nth-child(even) {
+    position: relative;
+    top: 50px;
 }
 
 
@@ -98,9 +99,11 @@
         width: 100%;
     }
 
-    .other-films__item:nth-child(2n) {
-        padding-top: 0;
+    .other-films__item:nth-child(even) {
+        position: static;
+        top: auto;
     }
+    
 }
 
 @media (max-width: 480px) {
